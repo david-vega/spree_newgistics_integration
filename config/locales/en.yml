@@ -1,5 +1,15 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 en:
-  hello: "Hello world"
+  spree:
+    external_shipment:
+      backorder: All contentof this shipment are backordered; individual shipments will ship as they become available
+      badaddress: The recipient address for this shipment was deemed invalid; address needs to be corrected
+      badskuhold: One or more SKUs transmitted to Newgistics Fullfillment for this shipment were not found
+      canceled: Shipment has been canceled and will not be processed
+      cnfhold: One or more products in this shipment were unable to be located, despite available inventory
+      invhold: One or more products in this shipment are out of stock
+      onhold: See shipment log to details
+      received: shipment has been received by Newgistics, and is awaiting processing
+      returned: the shipment has been returned to Newgistics
+      shipped: Shipment has been fully processed.
+      updated: shipment has been modified, and is awaiting processing
+      verified: shipment has been picked and verified, and is awaiting shipment

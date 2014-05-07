@@ -1,0 +1,7 @@
+/ insert_after "tr[data-hook='admin_orders_index_rows'] td[nth-child(5)]"
+
+<td class="align-center">
+  <% order.shipments.each do |shipment| %>
+  <%= shipment.external_status %>
+  <% end %>
+</td>

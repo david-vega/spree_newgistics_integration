@@ -1,0 +1,13 @@
+/replace_contents "table.index#listing_orders colgroup"
+
+<col style="width: 11%;"></col>
+<col style="width: 9%;"></col>
+<col style="width: 9%;"></col>
+<col style="width: 11%;"></col>
+<% if Spree::Order.checkout_step_names.include?(:delivery) %>
+  <col style="width: 11%;"></col>
+<% end %>
+<col style="width: 10%;"></col>
+<col style="width: 22%;"></col>
+<col style="width: 9%;"></col>
+<col style="width: 8%;"></col>

@@ -1,0 +1,5 @@
+/ insert_after "tr[data-hook='admin_orders_index_headers'] th[nth-child(6)]"
+
+<th>
+  Shipment External State
+</th>

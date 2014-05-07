@@ -1,0 +1,13 @@
+/insert_after "tr.show-tracking"
+
+<tr class="external-shipment">
+  <td colspan="4">
+    <%= t((shipment.external_status.downcase if shipment.external_status), %>
+    default: 'No details provided',
+    scope: 'spree.external_shipment')
+    <% end %>
+  </td>
+  <td>
+    <%= shipment.external_status %>
+  </td>
+</tr>
